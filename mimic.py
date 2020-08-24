@@ -23,9 +23,7 @@ better.
 import sys
 import random
 
-__author__ = """ 
-    Manuel Velasco
-    """
+__author__ = "Manuel Velasco"
 
 
 def create_mimic_dict(filename):
@@ -58,7 +56,7 @@ def create_mimic_dict(filename):
                 empty_dict[list_words[i]].append(list_words[i + 1])
     return empty_dict
 
-    ### and other way ###
+    # and other way #
     # prev = ''
     # for word in lst:
     #     if prev not in empty_dict:
@@ -77,7 +75,7 @@ def print_mimic_random(mimic_dict, num_words):
         - Randomly select a new word from the next-list
         - Repeat this process num_words times
     """
-    start_word = ''
+    # start_word = ''
 
 
 def main(args):
